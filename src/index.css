@@ -1,13 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px !important;
+  color: #5a5f69 !important;
+  font-weight: 500 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0.1em;
+  color: #000 !important;
+  text-transform: uppercase;
+  font-weight: 500 !important;
+}
+
+.content-header h3::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 50px;
+  margin: 10px 0;
+  height: 3px;
+  background: linear-gradient(to right, #337099, #7563b4);
+  left: calc(50% - 25px);
+}
+
+.content-header p {
+  color: #2635478f;
+}
+
+.link-help a {
+  color: #5a5f69 !important;
+  font-size: 16px !important;
+}
+
+.link-help a:hover {
+  text-decoration: none !important;
+  color: #4677da !important;
+  font-size: 16px !important;
 }
